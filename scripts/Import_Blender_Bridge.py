@@ -31,13 +31,13 @@ register()
 
 
 
-class HelloWorldPanel(bpy.types.Panel):
-    """Creates a Panel in the Object properties window"""
-    bl_label = "Export FBX back"
-    bl_idname = "OBJECT_PT_hello"
-    bl_space_type = 'PROPERTIES'
-    bl_region_type = 'WINDOW'
-    bl_context = "object"
+class ExportMeshLabel(bpy.types.Panel):
+    """creates a custom panel"""
+    bl_label = "Export back to Max"
+    bl_idname = "OBJECT_PT_Bridge"
+    bl_space_type = 'VIEW_3D'
+    bl_region_type = 'UI'
+    bl_category = "Max Bridge"
 
     def draw(self, context):
         layout = self.layout
@@ -52,11 +52,11 @@ class HelloWorldPanel(bpy.types.Panel):
 
 
 def register():
-    bpy.utils.register_class(HelloWorldPanel)
+    bpy.utils.register_class(ExportMeshLabel)
 
 
 def unregister():
-    bpy.utils.unregister_class(HelloWorldPanel)
+    bpy.utils.unregister_class(ExportMeshLabel)
 
 
 
