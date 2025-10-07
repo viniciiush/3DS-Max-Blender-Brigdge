@@ -12,3 +12,7 @@ simulating and sculpting are made with blender, so this helped a lot in that tim
 ## NOTE
 the first version was made in 2018, but i updated some times along the last years, and only now i put in github
 this is just a simple plugin, done in a short time that help in the situation that i write above
+
+## Video
+Check my artstation to see how plugin works
+https://www.artstation.com/artwork/AZYW2o
