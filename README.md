@@ -1,5 +1,6 @@
 ## INSTALLATION
-to install the plugin, just download the repository and store all folders in documents, the plugin need a folder temp to store the file while is transfering
+to install the plugin, just download the repository and store all folders in documents, and attach the maxscript code in a custom button in the panel, you can use the icons to make a good finish, but works without too.
+the plugin need a folder temporary to store the file while is transfering, this folder already included on the project
 
 ## USE CASES
 this plugin idea is help artists export from 3ds max to blender fastly, without clicling in panels to export (file> export > fbx > choose folder, and same in blender to import), 
